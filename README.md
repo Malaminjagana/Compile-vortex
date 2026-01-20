@@ -52,7 +52,7 @@ Experience CompileVortex live at [https://compile-vortex.vercel.app](https://com
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/lohitkolluri/CompileVortex
+git clone https://malaminjagana.github.io/Compile-vortex/
 ```
 
 2️⃣ Navigate to project directory:
