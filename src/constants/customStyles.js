@@ -1,0 +1,47 @@
+export const customStyles = {
+  control: (base, state) => ({
+    ...base,
+    width: "100%",
+    maxWidth: "14rem",
+    minWidth: "12rem",
+    borderRadius: "5px",
+    color: "#C7C3BD",
+    fontSize: "0.8rem",
+    lineHeight: "1.75rem",
+    backgroundColor: "#262626", 
+    cursor: "pointer",
+    border: `2px solid ${state.isFocused ? "#756E63" : "#262626"}`,
+    boxShadow: "4px 4px 0px 0px #3B3F42",
+    ":hover": {
+      border: `2px solid ${state.isFocused ? "#3B3F42" : "#262626"}`,
+      boxShadow: "none",
+    },
+  }),
+  option: (base, state) => ({
+    ...base,
+    color: "#FFFFFF",
+    fontSize: "0.8rem",
+    lineHeight: "1.75rem",
+    width: "100%",
+    background: state.isSelected ? "#3D4143" : "#262626",
+    ":hover": {
+      backgroundColor: "#3B3F42",
+      color: "#000",
+      cursor: "pointer",
+    },
+  }),
+  menu: (base) => ({
+    ...base,
+    backgroundColor: "#3B3F42",
+    maxWidth: "14rem",
+    border: "2px solid #3B3F42",
+    borderRadius: "5px",
+    boxShadow: "5px 5px 0px 0px rgba(0, 0, 0, 0)",
+  }),
+  placeholder: (base) => ({
+    ...base,
+    color: "#F3F4F6",
+    fontSize: "0.8rem",
+    lineHeight: "1.75rem",
+  }),
+};
